@@ -1,0 +1,19 @@
+{
+    "name": "zfbrasil/proxposer-api",
+    "description": "Proxposer api module",
+    "require": {
+        "doctrine/doctrine-module": "0.*",
+        "zfcampus/zf-apigility": "~1.0"
+    },
+    "require-dev": {
+        "zfcampus/zf-apigility-admin": "~1.0",
+        "zfcampus/zf-development-mode": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fabiocarneiro",
+            "email": "fahecs@gmail.com"
+        }
+    ]
+}

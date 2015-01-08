@@ -1,0 +1,16 @@
+<?php
+
+namespace ZFBrasil\Proxposer\Api;
+
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
+
+class Module implements ConfigProviderInterface
+{
+    /**
+     * {@inheritDoc}
+     */
+    public function getConfig()
+    {
+        return require __DIR__ . '/../module.config.php';
+    }
+}
