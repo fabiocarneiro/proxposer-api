@@ -15,5 +15,10 @@
             "name": "fabiocarneiro",
             "email": "fahecs@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZFBrasil\\Proxposer\\Api\\": "src"
+        }
+    }
 }
